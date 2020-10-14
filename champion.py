@@ -7,7 +7,7 @@ class Champion:
         self.__name = name
         self.__race = race
         self.__gender = gender
-        self.__level = level
+        self.level = level
         self.exp_next_level = exp_next_level
         self.currente_exp = currente_exp
         self.total_exp = total_exp
