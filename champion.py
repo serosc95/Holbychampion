@@ -22,7 +22,9 @@ class Champion:
     
     def gender(self):
         return self.__gender
-
+    
+    def level(self):
+        return self.level
 
     def level_up(self):
 
